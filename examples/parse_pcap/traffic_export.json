@@ -1,0 +1,529 @@
+{
+  "metadata": {
+    "export_timestamp": "2025-09-19T13:29:11.258775",
+    "total_packets": 30,
+    "export_version": "1.0"
+  },
+  "packets": [
+    {
+      "id": 1,
+      "timestamp": "2025-09-19T16:28:43.503513",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.1",
+      "source_port": 12345,
+      "destination_port": 80,
+      "protocol": "TCP",
+      "packet_size": 126,
+      "packet_data": {
+        "tcp_flags": "S",
+        "tcp_seq": 0,
+        "tcp_ack": 0,
+        "tcp_window": 8192
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:28:50.161006"
+    },
+    {
+      "id": 2,
+      "timestamp": "2025-09-19T16:28:43.503806",
+      "source_ip": "192.168.1.1",
+      "destination_ip": "192.168.1.100",
+      "source_port": 80,
+      "destination_port": 12345,
+      "protocol": "TCP",
+      "packet_size": 157,
+      "packet_data": {
+        "tcp_flags": "S",
+        "tcp_seq": 0,
+        "tcp_ack": 0,
+        "tcp_window": 8192
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:28:50.161010"
+    },
+    {
+      "id": 3,
+      "timestamp": "2025-09-19T16:28:43.503974",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "8.8.8.8",
+      "source_port": 12346,
+      "destination_port": 443,
+      "protocol": "TCP",
+      "packet_size": 109,
+      "packet_data": {
+        "tcp_flags": "S",
+        "tcp_seq": 0,
+        "tcp_ack": 0,
+        "tcp_window": 8192
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:28:50.161011"
+    },
+    {
+      "id": 4,
+      "timestamp": "2025-09-19T16:28:43.504131",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "8.8.8.8",
+      "source_port": 12347,
+      "destination_port": 53,
+      "protocol": "UDP",
+      "packet_size": 71,
+      "packet_data": {
+        "udp_length": 37,
+        "udp_checksum": 7030
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:28:50.161011"
+    },
+    {
+      "id": 5,
+      "timestamp": "2025-09-19T16:28:43.504281",
+      "source_ip": "8.8.8.8",
+      "destination_ip": "192.168.1.100",
+      "source_port": 53,
+      "destination_port": 12347,
+      "protocol": "UDP",
+      "packet_size": 87,
+      "packet_data": {
+        "udp_length": 53,
+        "udp_checksum": 28894
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:28:50.161012"
+    },
+    {
+      "id": 6,
+      "timestamp": "2025-09-19T16:28:43.504426",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.1",
+      "source_port": null,
+      "destination_port": null,
+      "protocol": "ICMP",
+      "packet_size": 71,
+      "packet_data": {
+        "icmp_type": 8,
+        "icmp_code": 0
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:28:50.161013"
+    },
+    {
+      "id": 7,
+      "timestamp": "2025-09-19T16:28:43.504642",
+      "source_ip": "192.168.1.1",
+      "destination_ip": "192.168.1.100",
+      "source_port": null,
+      "destination_port": null,
+      "protocol": "ICMP",
+      "packet_size": 71,
+      "packet_data": {
+        "icmp_type": 0,
+        "icmp_code": 0
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:28:50.161013"
+    },
+    {
+      "id": 8,
+      "timestamp": "2025-09-19T16:28:43.504828",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.50",
+      "source_port": 12348,
+      "destination_port": 22,
+      "protocol": "TCP",
+      "packet_size": 75,
+      "packet_data": {
+        "tcp_flags": "S",
+        "tcp_seq": 0,
+        "tcp_ack": 0,
+        "tcp_window": 8192
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:28:50.161014"
+    },
+    {
+      "id": 9,
+      "timestamp": "2025-09-19T16:28:43.504980",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.200",
+      "source_port": 12349,
+      "destination_port": 21,
+      "protocol": "TCP",
+      "packet_size": 70,
+      "packet_data": {
+        "tcp_flags": "S",
+        "tcp_seq": 0,
+        "tcp_ack": 0,
+        "tcp_window": 8192
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:28:50.161014"
+    },
+    {
+      "id": 10,
+      "timestamp": "2025-09-19T16:28:43.505130",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.1",
+      "source_port": 12350,
+      "destination_port": 25,
+      "protocol": "TCP",
+      "packet_size": 72,
+      "packet_data": {
+        "tcp_flags": "S",
+        "tcp_seq": 0,
+        "tcp_ack": 0,
+        "tcp_window": 8192
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:28:50.161015"
+    },
+    {
+      "id": 11,
+      "timestamp": "2025-09-19T16:28:43.505280",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.1",
+      "source_port": 12351,
+      "destination_port": 8080,
+      "protocol": "TCP",
+      "packet_size": 1054,
+      "packet_data": {
+        "tcp_flags": "S",
+        "tcp_seq": 0,
+        "tcp_ack": 0,
+        "tcp_window": 8192
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:28:50.161016"
+    },
+    {
+      "id": 12,
+      "timestamp": "2025-09-19T16:28:43.505429",
+      "source_ip": "192.168.1.200",
+      "destination_ip": "192.168.1.1",
+      "source_port": 12352,
+      "destination_port": 8080,
+      "protocol": "TCP",
+      "packet_size": 55,
+      "packet_data": {
+        "tcp_flags": "S",
+        "tcp_seq": 0,
+        "tcp_ack": 0,
+        "tcp_window": 8192
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:28:50.161016"
+    },
+    {
+      "id": 13,
+      "timestamp": "2025-09-19T16:28:43.505579",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.1",
+      "source_port": 12353,
+      "destination_port": 1234,
+      "protocol": "UDP",
+      "packet_size": 65,
+      "packet_data": {
+        "udp_length": 31,
+        "udp_checksum": 5665
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:28:50.161017"
+    },
+    {
+      "id": 14,
+      "timestamp": "2025-09-19T16:28:43.505721",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.1",
+      "source_port": 12354,
+      "destination_port": 80,
+      "protocol": "TCP",
+      "packet_size": 70,
+      "packet_data": {
+        "tcp_flags": "S",
+        "tcp_seq": 0,
+        "tcp_ack": 0,
+        "tcp_window": 8192
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:28:50.161017"
+    },
+    {
+      "id": 15,
+      "timestamp": "2025-09-19T16:28:43.505872",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.1",
+      "source_port": 12355,
+      "destination_port": 80,
+      "protocol": "TCP",
+      "packet_size": 76,
+      "packet_data": {
+        "tcp_flags": "S",
+        "tcp_seq": 0,
+        "tcp_ack": 0,
+        "tcp_window": 8192
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:28:50.161018"
+    },
+    {
+      "id": 16,
+      "timestamp": "2025-09-19T16:28:43.503513",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.1",
+      "source_port": 12345,
+      "destination_port": 80,
+      "protocol": "TCP",
+      "packet_size": 126,
+      "packet_data": {
+        "tcp_flags": "S",
+        "tcp_seq": 0,
+        "tcp_ack": 0,
+        "tcp_window": 8192
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:29:11.254670"
+    },
+    {
+      "id": 17,
+      "timestamp": "2025-09-19T16:28:43.503806",
+      "source_ip": "192.168.1.1",
+      "destination_ip": "192.168.1.100",
+      "source_port": 80,
+      "destination_port": 12345,
+      "protocol": "TCP",
+      "packet_size": 157,
+      "packet_data": {
+        "tcp_flags": "S",
+        "tcp_seq": 0,
+        "tcp_ack": 0,
+        "tcp_window": 8192
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:29:11.254675"
+    },
+    {
+      "id": 18,
+      "timestamp": "2025-09-19T16:28:43.503974",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "8.8.8.8",
+      "source_port": 12346,
+      "destination_port": 443,
+      "protocol": "TCP",
+      "packet_size": 109,
+      "packet_data": {
+        "tcp_flags": "S",
+        "tcp_seq": 0,
+        "tcp_ack": 0,
+        "tcp_window": 8192
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:29:11.254676"
+    },
+    {
+      "id": 19,
+      "timestamp": "2025-09-19T16:28:43.504131",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "8.8.8.8",
+      "source_port": 12347,
+      "destination_port": 53,
+      "protocol": "UDP",
+      "packet_size": 71,
+      "packet_data": {
+        "udp_length": 37,
+        "udp_checksum": 7030
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:29:11.254677"
+    },
+    {
+      "id": 20,
+      "timestamp": "2025-09-19T16:28:43.504281",
+      "source_ip": "8.8.8.8",
+      "destination_ip": "192.168.1.100",
+      "source_port": 53,
+      "destination_port": 12347,
+      "protocol": "UDP",
+      "packet_size": 87,
+      "packet_data": {
+        "udp_length": 53,
+        "udp_checksum": 28894
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:29:11.254678"
+    },
+    {
+      "id": 21,
+      "timestamp": "2025-09-19T16:28:43.504426",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.1",
+      "source_port": null,
+      "destination_port": null,
+      "protocol": "ICMP",
+      "packet_size": 71,
+      "packet_data": {
+        "icmp_type": 8,
+        "icmp_code": 0
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:29:11.254678"
+    },
+    {
+      "id": 22,
+      "timestamp": "2025-09-19T16:28:43.504642",
+      "source_ip": "192.168.1.1",
+      "destination_ip": "192.168.1.100",
+      "source_port": null,
+      "destination_port": null,
+      "protocol": "ICMP",
+      "packet_size": 71,
+      "packet_data": {
+        "icmp_type": 0,
+        "icmp_code": 0
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:29:11.254679"
+    },
+    {
+      "id": 23,
+      "timestamp": "2025-09-19T16:28:43.504828",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.50",
+      "source_port": 12348,
+      "destination_port": 22,
+      "protocol": "TCP",
+      "packet_size": 75,
+      "packet_data": {
+        "tcp_flags": "S",
+        "tcp_seq": 0,
+        "tcp_ack": 0,
+        "tcp_window": 8192
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:29:11.254680"
+    },
+    {
+      "id": 24,
+      "timestamp": "2025-09-19T16:28:43.504980",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.200",
+      "source_port": 12349,
+      "destination_port": 21,
+      "protocol": "TCP",
+      "packet_size": 70,
+      "packet_data": {
+        "tcp_flags": "S",
+        "tcp_seq": 0,
+        "tcp_ack": 0,
+        "tcp_window": 8192
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:29:11.254680"
+    },
+    {
+      "id": 25,
+      "timestamp": "2025-09-19T16:28:43.505130",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.1",
+      "source_port": 12350,
+      "destination_port": 25,
+      "protocol": "TCP",
+      "packet_size": 72,
+      "packet_data": {
+        "tcp_flags": "S",
+        "tcp_seq": 0,
+        "tcp_ack": 0,
+        "tcp_window": 8192
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:29:11.254681"
+    },
+    {
+      "id": 26,
+      "timestamp": "2025-09-19T16:28:43.505280",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.1",
+      "source_port": 12351,
+      "destination_port": 8080,
+      "protocol": "TCP",
+      "packet_size": 1054,
+      "packet_data": {
+        "tcp_flags": "S",
+        "tcp_seq": 0,
+        "tcp_ack": 0,
+        "tcp_window": 8192
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:29:11.254681"
+    },
+    {
+      "id": 27,
+      "timestamp": "2025-09-19T16:28:43.505429",
+      "source_ip": "192.168.1.200",
+      "destination_ip": "192.168.1.1",
+      "source_port": 12352,
+      "destination_port": 8080,
+      "protocol": "TCP",
+      "packet_size": 55,
+      "packet_data": {
+        "tcp_flags": "S",
+        "tcp_seq": 0,
+        "tcp_ack": 0,
+        "tcp_window": 8192
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:29:11.254682"
+    },
+    {
+      "id": 28,
+      "timestamp": "2025-09-19T16:28:43.505579",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.1",
+      "source_port": 12353,
+      "destination_port": 1234,
+      "protocol": "UDP",
+      "packet_size": 65,
+      "packet_data": {
+        "udp_length": 31,
+        "udp_checksum": 5665
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:29:11.254683"
+    },
+    {
+      "id": 29,
+      "timestamp": "2025-09-19T16:28:43.505721",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.1",
+      "source_port": 12354,
+      "destination_port": 80,
+      "protocol": "TCP",
+      "packet_size": 70,
+      "packet_data": {
+        "tcp_flags": "S",
+        "tcp_seq": 0,
+        "tcp_ack": 0,
+        "tcp_window": 8192
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:29:11.254683"
+    },
+    {
+      "id": 30,
+      "timestamp": "2025-09-19T16:28:43.505872",
+      "source_ip": "192.168.1.100",
+      "destination_ip": "192.168.1.1",
+      "source_port": 12355,
+      "destination_port": 80,
+      "protocol": "TCP",
+      "packet_size": 76,
+      "packet_data": {
+        "tcp_flags": "S",
+        "tcp_seq": 0,
+        "tcp_ack": 0,
+        "tcp_window": 8192
+      },
+      "file_name": "sample_traffic_20250919_162843.pcap",
+      "created_at": "2025-09-19T13:29:11.254684"
+    }
+  ]
+}

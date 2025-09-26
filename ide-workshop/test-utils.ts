@@ -10,24 +10,40 @@
  */
 
 // 1. Асинхронная функция с обработкой ошибок
+/**
+ * Асинхронная функция для получения данных пользователя по его ID
+ * @param userId - уникальный идентификатор пользователя (обязательный параметр)
+ * @returns Объект с полями id, name, email при успехе, или null при ошибке
+ */
 export async function fetchUserData(userId: string): Promise<{ id: string; name: string; email: string } | null> {
+  // Проверка наличия userId: если пустой или undefined, выбрасываем ошибку
   if (!userId) {
     throw new Error('User ID is required');
   }
 
   try {
+    // Выполняем HTTP GET запрос к эндпоинту /api/users/{userId}
     const response = await fetch(`/api/users/${userId}`);
+    
+    // Проверяем, что ответ имеет статус 200-299 (успешный)
     if (!response.ok) {
+      // Если статус не успешный, выбрасываем ошибку с кодом статуса
       throw new Error(`HTTP error! status: ${response.status}`);
     }
+    
+    // Преобразуем тело ответа из JSON в JavaScript-объект
     const data = await response.json();
+    
+    // Возвращаем объект с нужными полями: id, name, email
     return {
       id: data.id,
       name: data.name,
       email: data.email
     };
   } catch (error) {
+    // В случае любой ошибки (сеть, парсинг, HTTP-ошибка) — логируем её
     console.error('Failed to fetch user data:', error);
+    // И возвращаем null, чтобы функция не прерывала выполнение вызывающего кода
     return null;
   }
 }
